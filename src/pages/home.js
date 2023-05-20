@@ -1,11 +1,10 @@
 import React from 'react'
-import Button from '../components/Button'
+import Footer from '../components/Footer'
 
 export default function Home() {
     return (
         <div>
-            home
-            <Button name={'Register'} color={'blue'} />
+            <Footer />
         </div>
     )
 }
