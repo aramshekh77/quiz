@@ -1,0 +1,44 @@
+.banner__cotainer{
+   background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(234,238,245,1) 76%);
+    height:720px;
+    width:100%;
+}
+.banner{
+    align-items:center;
+    display:flex;
+    margin-top:100px;
+}
+.text__heading{
+    width:100%;
+}
+.image__bar{
+    width:100%;
+}
+.image__bar img{
+    width:100%;
+}
+.text__heading h1{
+    margin-left:140px;
+ font-size:50px;
+font-family: 'Poppins';
+font-weight:500;
+
+}
+.text__heading input{
+    font-size:20px;
+   border:none;
+   font-family: 'Poppins';
+   margin-left:140px;
+   width:60%;
+   position:relative;
+
+}.text__heading input::after{
+    content:" ";
+    border-left: 1px solid red;
+    height:50px;
+    width:40%;
+    position:absolute;
+    margin:auto;
+
+}
